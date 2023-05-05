@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=QR Code Generator
+Comment=A QR Code Generator for Linux
+Exec=/usr/bin/x-terminal-emulator -e "/opt/QR-Code-Generator/src/qrcg.sh"
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/opt/QR-Code-Generator/src/icon.png
+Categories=GNOME;GTK;Development;
+Name[en_GB]=QR Code Generator
