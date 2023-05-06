@@ -1,6 +1,12 @@
-import pyrcode
-import png
+import pyqrcode
+from PIL import Image
 
-link = "https://google.com"
+def qrcg()
+  
+
+link = input("Enter URL: ")
 qr_code = pyqrcode.create(link)
-qr_code.png("image.png", scale=5)
+
+qr_code.png("QRCode.png", scale=5)
+
+Image.open("QRCode.png")
